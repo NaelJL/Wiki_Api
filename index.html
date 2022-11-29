@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wiki API</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="./ressources/wiki-logo.png" alt="logo wikipedia" class="wiki-logo" />
+      <h1>Search Wikipedia</h1>
+    </header>
+
+    <form>
+      <input type="text" class="search-input" placeholder="Enter your search" />
+    </form>
+    <p class="error-msg"></p>
+    <div class="results-display"></div>
+    <div class="loader">
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+    </div>
+
+    <footer>
+      <p>
+        This website is brought to you by
+        <a href="https://github.com/NaelJL" alt="link-bio" target="_blank">Nael.</a>
+      </p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
