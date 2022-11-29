@@ -63,5 +63,3 @@ function createCards(data) {
     });
     loader.style.display = "none";
 }
-
-const paris = paris;
